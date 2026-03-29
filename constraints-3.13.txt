@@ -1,7 +1,7 @@
 
 #
-# This constraints file was automatically generated on 2026-03-23T19:45:59.328243
-# via `uv pip install --resolution highest` for the "main" branch of Airflow.
+# This constraints file was automatically generated on 2026-03-29T20:45:12.228161
+# via `uv pip install --resolution highest` for the "v3-2-test" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
 #
@@ -60,7 +60,7 @@ SQLAlchemy-Utils==0.42.1
 SQLAlchemy==2.0.48
 SecretStorage==3.5.0
 WTForms==3.2.1
-Werkzeug==3.1.6
+Werkzeug==3.1.7
 a2wsgi==1.10.10
 adal==1.2.7
 adlfs==2026.2.0
@@ -77,22 +77,19 @@ aiosmtplib==5.1.0
 aiosqlite==0.21.0
 airbyte-api==0.53.0
 alembic==1.18.4
-alibabacloud-adb20211201==3.7.0
+alibabacloud-adb20211201==3.7.1
 alibabacloud-credentials-api==1.0.0
 alibabacloud-credentials==1.0.8
-alibabacloud-openapi-util==0.2.4
+alibabacloud-tea-openapi==0.4.3
 alibabacloud-tea-util==0.3.14
 alibabacloud-tea==0.4.3
-alibabacloud_endpoint_util==0.0.4
 alibabacloud_gateway_spi==0.0.3
-alibabacloud_tea_openapi==0.3.16
-alibabacloud_tea_xml==0.0.3
 aliyun-python-sdk-core==2.16.0
 aliyun-python-sdk-kms==2.16.5
 amqp==5.3.1
 annotated-doc==0.0.4
 annotated-types==0.7.0
-anyio==4.12.1
+anyio==4.13.0
 apache-airflow-providers-airbyte==5.3.3
 apache-airflow-providers-alibaba==3.3.5
 apache-airflow-providers-amazon==9.23.0
@@ -137,6 +134,7 @@ apache-airflow-providers-facebook==3.9.2
 apache-airflow-providers-ftp==3.14.1
 apache-airflow-providers-git==0.2.4
 apache-airflow-providers-github==2.11.0
+apache-airflow-providers-google==20.0.0
 apache-airflow-providers-grpc==3.9.2
 apache-airflow-providers-hashicorp==4.5.0
 apache-airflow-providers-http==6.0.0
@@ -176,7 +174,7 @@ apache-airflow-providers-sftp==5.7.1
 apache-airflow-providers-singularity==3.9.2
 apache-airflow-providers-slack==9.8.0
 apache-airflow-providers-smtp==2.4.3
-apache-airflow-providers-snowflake==6.5.4
+apache-airflow-providers-snowflake==6.11.0
 apache-airflow-providers-sqlite==4.3.0
 apache-airflow-providers-ssh==4.3.2
 apache-airflow-providers-standard==1.12.1
@@ -219,7 +217,7 @@ azure-mgmt-datalake-nspkg==3.0.1
 azure-mgmt-datalake-store==0.5.0
 azure-mgmt-nspkg==3.0.2
 azure-mgmt-resource==25.0.0
-azure-mgmt-storage==24.0.0
+azure-mgmt-storage==24.0.1
 azure-nspkg==3.0.2
 azure-servicebus==7.14.3
 azure-storage-blob==12.28.0
@@ -253,7 +251,7 @@ click-didyoumean==0.3.1
 click-plugins==1.1.1.2
 click-repl==0.3.0
 click==8.3.1
-cloudpickle==3.1.2
+cloudpickle==3.1.1
 cohere==5.20.7
 colorama==0.4.6
 colorful==0.5.8
@@ -263,8 +261,9 @@ confluent-kafka==2.13.2
 crcmod==1.7
 cron_descriptor==2.0.8
 croniter==6.2.2
-cryptography==46.0.5
+cryptography==44.0.3
 curlify==3.0.0
+darabonba-core==1.0.5
 databricks-sql-connector==4.2.5
 dataclasses-json==0.6.7
 datadog==0.52.1
@@ -310,14 +309,14 @@ genai-prices==0.0.56
 geomet==1.1.0
 gevent==25.9.1
 gitdb==4.0.12
-google-ads==29.2.0
+google-ads==30.0.0
 google-analytics-admin==0.27.0
 google-api-core==2.30.0
 google-api-python-client==2.193.0
 google-auth-httplib2==0.3.0
 google-auth-oauthlib==1.3.0
 google-auth==2.49.1
-google-cloud-aiplatform==1.142.0
+google-cloud-aiplatform==1.143.0
 google-cloud-alloydb==0.8.0
 google-cloud-appengine-logging==1.8.0
 google-cloud-audit-log==0.4.0
@@ -334,7 +333,7 @@ google-cloud-core==2.5.0
 google-cloud-datacatalog==3.29.0
 google-cloud-dataflow-client==0.11.0
 google-cloud-dataform==0.9.0
-google-cloud-dataplex==2.16.0
+google-cloud-dataplex==2.17.0
 google-cloud-dataproc-metastore==1.21.0
 google-cloud-dataproc==5.25.0
 google-cloud-dlp==3.34.0
@@ -370,7 +369,7 @@ graphviz==0.21
 greenback==1.3.0
 greenlet==3.3.2
 gremlinpython==3.8.0
-griffelib==2.0.0
+griffelib==2.0.1
 grpc-google-iam-v1==0.14.3
 grpc-interceptor==0.15.4
 grpcio-gcp==0.2.2
@@ -389,7 +388,7 @@ httpcore==1.0.9
 httplib2==0.31.2
 httptools==0.7.1
 httpx==0.28.1
-huggingface_hub==1.7.2
+huggingface_hub==1.8.0
 humanize==4.15.0
 hvac==2.4.0
 hyperframe==6.1.0
@@ -437,7 +436,7 @@ linkify-it-py==2.1.0
 litellm==1.82.6
 lockfile==0.12.2
 logfire-api==4.30.0
-looker_sdk==26.6.0
+looker_sdk==26.6.1
 lxml==6.0.2
 lz4==4.4.5
 markdown-it-py==4.0.0
@@ -540,7 +539,7 @@ pure-sasl==0.6.2
 pure_eval==0.2.3
 py-spy==0.4.1
 py4j==0.10.9.9
-pyOpenSSL==25.3.0
+pyOpenSSL==25.1.0
 pyarrow==23.0.1
 pyasn1==0.6.3
 pyasn1_modules==0.4.2
@@ -548,23 +547,23 @@ pybreaker==1.4.1
 pycountry==26.2.16
 pycparser==3.0
 pycryptodome==3.23.0
-pydantic-ai-slim==1.70.0
+pydantic-ai-slim==1.71.0
 pydantic-extra-types==2.11.1
-pydantic-graph==1.70.0
+pydantic-graph==1.71.0
 pydantic-settings==2.13.1
 pydantic==2.12.5
 pydantic_core==2.41.5
 pydata-google-auth==1.9.1
 pydruid==0.6.9
 pydynamodb==0.8.1
-pyexasol==1.3.0
+pyexasol==1.1.0
 pygtrie==2.5.0
 pyiceberg==0.11.1
 pykerberos==1.2.4
 pymongo==4.16.0
 pymssql==2.3.13
 pyodbc==5.3.0
-pyodps==0.12.5.1
+pyodps==0.12.6
 pyparsing==3.3.2
 pypsrp==0.9.1
 pyroaring==1.0.4
@@ -597,7 +596,7 @@ requests-file==3.0.1
 requests-kerberos==0.15.0
 requests-oauthlib==2.0.0
 requests-toolbelt==1.0.0
-requests==2.32.5
+requests==2.33.0
 requests_ntlm==1.3.0
 retryhttp==1.4.0
 rich-argparse==1.7.2
@@ -615,7 +614,7 @@ scramp==1.4.8
 scrapbook==0.5.0
 segment-analytics-python==2.3.3
 sendgrid==6.12.2
-sentry-sdk==2.55.0
+sentry-sdk==2.56.0
 setproctitle==1.3.7
 setuptools==82.0.1
 shellingham==1.5.4
@@ -627,12 +626,13 @@ smbprotocol==1.16.0
 smmap==5.0.3
 sniffio==1.3.1
 snowflake-connector-python==4.3.0
+snowflake-snowpark-python==1.48.0
 snowflake-sqlalchemy==1.9.0
 sortedcontainers==2.4.0
 soupsieve==2.8.3
 spython==0.3.14
 sqlalchemy-bigquery==1.16.0
-sqlalchemy-spanner==1.17.2
+sqlalchemy-spanner==1.17.3
 sqlalchemy_drill==1.1.10
 sqlean.py==3.50.4.5
 sqlparse==0.5.5
@@ -665,7 +665,7 @@ traitlets==5.14.3
 trino==0.337.0
 typer==0.24.1
 types-protobuf==6.32.1.20260221
-types-requests==2.32.4.20260107
+types-requests==2.32.4.20260324
 typing-inspect==0.9.0
 typing-inspection==0.4.2
 typing_extensions==4.15.0
@@ -676,7 +676,7 @@ universal_pathlib==0.3.10
 uritemplate==4.2.0
 urllib3==2.6.3
 uuid6==2025.0.1
-uv==0.10.12
+uv==0.11.1
 uvicorn==0.42.0
 uvloop==0.22.1
 validators==0.35.0
@@ -688,8 +688,9 @@ watchtower==3.4.0
 wcwidth==0.6.0
 weaviate-client==4.20.4
 webencodings==0.5.1
-websocket-client==1.8.0
+websocket-client==1.9.0
 websockets==16.0
+wheel==0.46.3
 wirerope==1.0.0
 wrapt==2.1.2
 xmltodict==1.0.4
