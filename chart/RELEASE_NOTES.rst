@@ -37,7 +37,7 @@ The following ``workers.*`` fields are deprecated and have been moved to both ``
 * ``affinity`` (#64860), ``tolerations`` (#64976), ``topologySpreadConstraints`` (#64980),
 * ``podAnnotations`` (#65027), ``labels`` (#65030), ``env`` (#65056), ``extraVolumeMounts`` (#65059).
 
-The following ``workers.*`` fields are deprecated and have been moved to ``workers.celery.*`` only:
+The following ``workers.*`` fields are deprecated and have been moved to ``workers.celery.*``:
 
 * ``extraPorts`` (#61919), ``volumeClaimTemplates`` (#62048), ``waitForMigrations`` (#62054),
 * ``hpa`` (#64734), ``annotations`` (#64982), ``logGroomerSidecar`` (#65033).
