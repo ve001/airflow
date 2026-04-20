@@ -45,9 +45,9 @@ The following ``workers.*`` fields are deprecated and have been moved to ``worke
 Please update your configuration accordingly. The previous configuration options are still working,
 but are deprecated and will be removed in a future version.
 
-*  Default Airflow image is updated to ``3.2.0``
+The default Airflow image that is used with the Chart is now ``3.2.0``, previously it was ``3.1.8``.
 
-  The default Airflow image that is used with the Chart is now ``3.2.0``, previously it was ``3.1.8``. (#64841)
+*  Default Airflow image is updated to ``3.2.0`` (#64841)
 
 Bug Fixes
 ^^^^^^^^^
