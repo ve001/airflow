@@ -23,7 +23,7 @@ Run ``helm repo update`` before upgrading the chart to the latest version.
 
 .. towncrier release notes start
 
-Airflow Helm Chart 1.21.0 (2026-04-20)
+Airflow Helm Chart 1.21.0 (2026-04-21)
 --------------------------------------
 
 Significant Changes
@@ -68,7 +68,7 @@ Improvements
 Bug Fixes
 ^^^^^^^^^
 
-- Fixed broker URL secret name resolution to use ``airflow.fullname`` consistently. This fixes deployments where ``useStandardNaming=True`` and ``airflow.fullname != .Release.Name``, for example when using ``fullnameOverride``, ``nameOverride``, or the Airflow Helm chart as a dependency. (#65006)
+- Fix wrong broker URL secret ref (#65006)
 - Fix Helm chart image volume schema validation (#65409)
 - Remove duplicate fallback branch in ``airflowPodSecurityContextsIds`` helper (#65558)
 - Render cleanup RBAC only for ``KubernetesExecutor`` (#65539)
