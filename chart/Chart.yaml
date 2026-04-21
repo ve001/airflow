@@ -121,7 +121,7 @@ annotations:
       links:
       - name: '#64841'
         url: https://github.com/apache/airflow/pull/64841
-    - description: Fix broker URL secret name resolution to use airflow.fullname consistently
+    - description: Fix wrong broker URL secret ref
       kind: fixed
       links:
       - name: '#65006'
