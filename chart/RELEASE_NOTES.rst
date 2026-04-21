@@ -33,20 +33,30 @@ Significant Changes
 Workers config options have been moved under ``workers.celery.*`` and ``workers.kubernetes.*``
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-Please update your configuration accordingly.
+Please update your configuration accordingly:
 
-The following options have been moved to both ``workers.celery.*`` and ``workers.kubernetes.*``:
-
-* ``safeToEvict`` (#61915), ``hostAliases`` (#61960), ``priorityClassName`` (#61961),
-* ``runtimeClassName`` (#61962), ``schedulerName`` (#62030), ``serviceAccount`` (#64730),
-* ``extraContainers`` (#64739), ``extraInitContainers`` (#64741), ``extraVolumes`` (#64746),
-* ``affinity`` (#64860), ``tolerations`` (#64976), ``topologySpreadConstraints`` (#64980),
-* ``podAnnotations`` (#65027), ``labels`` (#65030), ``env`` (#65056), ``extraVolumeMounts`` (#65059).
-
-The following options are Celery-specific and have been moved under ``workers.celery.*``:
-
-* ``extraPorts`` (#61919), ``volumeClaimTemplates`` (#62048), ``waitForMigrations`` (#62054),
-* ``hpa`` (#64734), ``annotations`` (#64982), ``logGroomerSidecar`` (#65033).
+* ``workers.safeToEvict`` is now deprecated in favor of ``workers.celery.safeToEvict``/``workers.kubernetes.safeToEvict`` (#61915).
+* ``workers.hostAliases`` is now deprecated in favor of ``workers.celery.hostAliases``/``workers.kubernetes.hostAliases`` (#61960).
+* ``workers.priorityClassName`` is now deprecated in favor of ``workers.celery.priorityClassName``/``workers.kubernetes.priorityClassName`` (#61961).
+* ``workers.runtimeClassName`` is now deprecated in favor of ``workers.celery.runtimeClassName``/``workers.kubernetes.runtimeClassName`` (#61962).
+* ``workers.schedulerName`` is now deprecated in favor of ``workers.celery.schedulerName``/``workers.kubernetes.schedulerName`` (#62030).
+* ``workers.serviceAccount`` is now deprecated in favor of ``workers.celery.serviceAccount``/``workers.kubernetes.serviceAccount`` (#64730).
+* ``workers.extraContainers`` is now deprecated in favor of ``workers.celery.extraContainers``/``workers.kubernetes.extraContainers`` (#64739).
+* ``workers.extraInitContainers`` is now deprecated in favor of ``workers.celery.extraInitContainers``/``workers.kubernetes.extraInitContainers`` (#64741).
+* ``workers.extraVolumes`` is now deprecated in favor of ``workers.celery.extraVolumes``/``workers.kubernetes.extraVolumes`` (#64746).
+* ``workers.affinity`` is now deprecated in favor of ``workers.celery.affinity``/``workers.kubernetes.affinity`` (#64860).
+* ``workers.tolerations`` is now deprecated in favor of ``workers.celery.tolerations``/``workers.kubernetes.tolerations`` (#64976).
+* ``workers.topologySpreadConstraints`` is now deprecated in favor of ``workers.celery.topologySpreadConstraints``/``workers.kubernetes.topologySpreadConstraints`` (#64980).
+* ``workers.podAnnotations`` is now deprecated in favor of ``workers.celery.podAnnotations``/``workers.kubernetes.podAnnotations`` (#65027).
+* ``workers.labels`` is now deprecated in favor of ``workers.celery.labels``/``workers.kubernetes.labels`` (#65030).
+* ``workers.env`` is now deprecated in favor of ``workers.celery.env``/``workers.kubernetes.env`` (#65056).
+* ``workers.extraVolumeMounts`` is now deprecated in favor of ``workers.celery.extraVolumeMounts``/``workers.kubernetes.extraVolumeMounts`` (#65059).
+* ``workers.extraPorts`` is now deprecated in favor of ``workers.celery.extraPorts`` (#61919).
+* ``workers.volumeClaimTemplates`` is now deprecated in favor of ``workers.celery.volumeClaimTemplates`` (#62048).
+* ``workers.waitForMigrations`` is now deprecated in favor of ``workers.celery.waitForMigrations`` (#62054).
+* ``workers.hpa`` is now deprecated in favor of ``workers.celery.hpa`` (#64734).
+* ``workers.annotations`` is now deprecated in favor of ``workers.celery.annotations`` (#64982).
+* ``workers.logGroomerSidecar`` is now deprecated in favor of ``workers.celery.logGroomerSidecar`` (#65033).
 
 The previous configuration options are still working but are deprecated and will be removed in a future version.
 
@@ -109,6 +119,7 @@ old version of Apache Airflow, please use the last released version of the chart
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Please update your configuration accordingly:
+
 * ``workers.command`` command is now deprecated in favor of ``workers.celery.command``/``workers.kubernetes.command`` (#60067).
 * ``workers.securityContexts`` command is now deprecated in favor of ``workers.celery.securityContexts``/``workers.kubernetes.securityContexts`` (#60396).
 * ``workers.containerLifecycleHooks`` command is now deprecated in favor of ``workers.celery.containerLifecycleHooks``/``workers.kubernetes.containerLifecycleHooks`` (#61369).
