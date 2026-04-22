@@ -730,12 +730,16 @@ class OpenLineageListener:
                 clear_number=dagrun.clear_number,
             )
 
-            data_interval_start = dagrun.data_interval_start
-            if isinstance(data_interval_start, datetime):
-                data_interval_start = data_interval_start.isoformat()
-            data_interval_end = dagrun.data_interval_end
-            if isinstance(data_interval_end, datetime):
-                data_interval_end = data_interval_end.isoformat()
+            data_interval_start: str | None = (
+                dagrun.data_interval_start.isoformat()
+                if isinstance(dagrun.data_interval_start, datetime)
+                else None
+            )
+            data_interval_end: str | None = (
+                dagrun.data_interval_end.isoformat()
+                if isinstance(dagrun.data_interval_end, datetime)
+                else None
+            )
 
             dag_tags: list | None = None
             owners: list[str] | None = None
@@ -776,10 +780,11 @@ class OpenLineageListener:
             if ti_state == TaskInstanceState.FAILED:
                 adapter_kwargs["error"] = error
 
+            operator_name = (ti.operator or "").lower()
             self.submit_callable(
                 _emit_manual_state_change_event,
                 adapter_method,
-                f"ol.event.size.{event_type}.{ti.operator.lower()}",
+                f"ol.event.size.{event_type}.{operator_name}",
                 **adapter_kwargs,
             )
         except BaseException as e:
