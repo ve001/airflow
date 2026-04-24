@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-04-22T13:26:45.315640
+# This constraints file was automatically generated on 2026-04-24T11:01:28.241026
 # via `uv pip install --resolution highest` for the "v3-2-test" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -243,7 +243,7 @@ boto3==1.42.84
 botocore==1.42.84
 cachelib==0.13.0
 cachetools==6.2.6
-cadwyn==6.2.0
+cadwyn==6.2.1
 cassandra-driver==3.30.0
 cattrs==26.1.0
 celery==5.6.3
@@ -299,7 +299,7 @@ fastapi==0.136.0
 fastavro==1.12.1
 fastjsonschema==2.21.2
 fastuuid==0.14.0
-filelock==3.28.0
+filelock==3.29.0
 flask-appbuilder==5.2.0
 flask-babel==4.0.0
 flower==2.0.1
