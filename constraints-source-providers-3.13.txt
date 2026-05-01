@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-04-28T23:10:43.313529
+# This constraints file was automatically generated on 2026-05-01T20:36:25.751427
 # via `uv sync --resolution highest for the "v3-2-test" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version of both
 # 'apache-airflow' package and all available community provider distributions.
@@ -60,13 +60,16 @@ aiosqlite==0.21.0
 airbyte-api==0.53.0
 alabaster==1.0.0
 alembic==1.18.4
-alibabacloud-adb20211201==3.7.1
+alibabacloud-adb20211201==3.7.0
 alibabacloud-credentials-api==1.0.0
 alibabacloud-credentials==1.0.8
-alibabacloud-tea-openapi==0.4.4
+alibabacloud-openapi-util==0.2.4
 alibabacloud-tea-util==0.3.14
 alibabacloud-tea==0.4.3
+alibabacloud_endpoint_util==0.0.4
 alibabacloud_gateway_spi==0.0.3
+alibabacloud_tea_openapi==0.3.16
+alibabacloud_tea_xml==0.0.3
 aliyun-python-sdk-core==2.16.0
 aliyun-python-sdk-kms==2.16.5
 amqp==5.3.1
@@ -74,7 +77,7 @@ annotated-doc==0.0.4
 annotated-types==0.7.0
 anyio==4.13.0
 apispec==6.10.0
-apprise==1.9.9
+apprise==1.10.0
 argcomplete==3.6.3
 arro3-core==0.8.0
 asana==5.2.4
@@ -157,9 +160,8 @@ coverage==7.13.5
 crcmod==1.7
 cron_descriptor==2.0.8
 croniter==6.2.2
-cryptography==46.0.7
+cryptography==47.0.0
 curlify==3.0.0
-darabonba-core==1.0.5
 databricks-sql-connector==4.2.5
 databricks-sqlalchemy==2.0.9
 dataclasses-json==0.6.7
@@ -274,7 +276,7 @@ googleapis-common-protos==1.74.0
 graphql-core==3.2.8
 graphviz==0.20.3
 greenback==1.3.0
-greenlet==3.4.0
+greenlet==3.5.0
 gremlinpython==3.8.1
 griffelib==2.0.2
 grpc-google-iam-v1==0.14.4
@@ -305,7 +307,7 @@ hvac==2.4.0
 hyperframe==6.1.0
 hyperlink==21.0.0
 ibm-cloud-sdk-core==3.24.4
-ibmcloudant==0.11.5
+ibmcloudant==0.11.6
 icalendar==7.0.3
 icdiff==2.0.10
 id==1.6.1
@@ -412,7 +414,7 @@ nbformat==5.10.4
 neo4j==6.1.0
 nest-asyncio==1.6.0
 networkx==3.6.1
-nh3==0.3.4
+nh3==0.3.5
 nodeenv==1.10.0
 numpy==2.4.4
 oauthlib==3.3.1
@@ -443,7 +445,7 @@ ordered-set==4.1.0
 orjson==3.11.8
 oss2==2.19.1
 outcome==1.3.0.post0
-packaging==26.1
+packaging==26.2
 pagefind==1.5.2
 pagefind_bin==1.5.2
 pagerduty==6.2.1
@@ -456,7 +458,7 @@ paramiko==3.5.1
 parso==0.8.6
 pathable==0.5.0
 pathlib_abc==0.5.2
-pathspec==1.1.0
+pathspec==1.1.1
 pbr==7.0.3
 pdbr==0.9.7
 pendulum==3.2.0
@@ -475,7 +477,7 @@ polars==1.40.1
 portalocker==3.2.0
 pprintpp==0.4.0
 pre_commit==4.6.0
-prek==0.3.10
+prek==0.3.11
 presto-python-client==0.8.4
 prison==0.2.1
 prometheus_client==0.25.0
@@ -489,9 +491,9 @@ ptyprocess==0.7.0
 pure-sasl==0.6.2
 pure_eval==0.2.3
 py-partiql-parser==0.6.3
-py-spy==0.4.1
+py-spy==0.4.2
 py4j==0.10.9.9
-pyOpenSSL==26.0.0
+pyOpenSSL==26.1.0
 pyarrow==24.0.0
 pyasn1==0.6.3
 pyasn1_modules==0.4.2
@@ -499,9 +501,9 @@ pybreaker==1.4.1
 pycountry==26.2.16
 pycparser==3.0
 pycryptodome==3.23.0
-pydantic-ai-slim==1.86.1
+pydantic-ai-slim==1.87.0
 pydantic-extra-types==2.11.1
-pydantic-graph==1.86.1
+pydantic-graph==1.87.0
 pydantic-settings==2.14.0
 pydantic==2.13.3
 pydantic_core==2.46.3
@@ -520,7 +522,7 @@ pyodps==0.12.6
 pyparsing==3.3.2
 pyproject_hooks==1.2.0
 pypsrp==0.9.1
-pyroaring==1.0.4
+pyroaring==1.1.0
 pyspark-client==4.1.1
 pyspark==4.1.1
 pyspnego==0.12.1
@@ -544,7 +546,7 @@ python-http-client==3.3.7
 python-jenkins==1.8.3
 python-keycloak==7.1.1
 python-ldap==3.4.5
-python-multipart==0.0.26
+python-multipart==0.0.27
 python-on-whales==0.81.0
 python-slugify==8.0.4
 python-telegram-bot==22.7
@@ -580,7 +582,7 @@ roman-numerals==4.1.0
 rpds-py==0.30.0
 rsa==4.9.1
 ruamel.yaml==0.19.1
-ruff==0.15.11
+ruff==0.15.12
 s3fs==2026.3.0
 s3transfer==0.16.1
 sagemaker_studio==1.0.26
@@ -631,7 +633,7 @@ sqlalchemy-spanner==1.17.3
 sqlalchemy_drill==1.1.10
 sqlglot==30.6.0
 sqlparse==0.5.5
-sse-starlette==3.3.4
+sse-starlette==3.4.1
 sshtunnel==0.4.0
 stack-data==0.6.3
 starlette==0.52.1
@@ -656,7 +658,7 @@ thrift==0.16.0
 tiktoken==0.12.0
 time-machine==3.2.0
 tinycss2==1.4.0
-tokenizers==0.22.2
+tokenizers==0.23.1
 tomli_w==1.2.0
 tomlkit==0.14.0
 tornado==6.5.5
@@ -667,7 +669,7 @@ trino==0.337.0
 trove-classifiers==2026.1.14.14
 twine==6.2.0
 typer-slim==0.24.0
-typer==0.24.2
+typer==0.25.0
 types-Deprecated==1.3.1.20260408
 types-Markdown==3.10.2.20260408
 types-PyMySQL==1.1.0.20260408
@@ -723,10 +725,10 @@ yandex-query-client==0.1.4
 yandexcloud==0.387.0
 yarl==1.23.0
 ydb-dbapi==0.1.20
-ydb==3.28.2
+ydb==3.28.3
 zeep==4.3.2
 zenpy==2.0.57
 zipp==3.23.1
 zope.event==6.1
-zope.interface==8.3
+zope.interface==8.4
 zstandard==0.25.0
