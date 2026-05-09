@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-05-09T13:53:15.805876
+# This constraints file was automatically generated on 2026-05-09T20:47:37.324503
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -65,7 +65,7 @@ adal==1.2.7
 adbc-driver-manager==1.11.0
 adbc-driver-postgresql==1.11.0
 adbc-driver-sqlite==1.11.0
-adlfs==2026.4.0
+adlfs==2026.5.0
 aenum==3.1.17
 aiobotocore==3.6.0
 aiofiles==24.1.0
@@ -272,7 +272,7 @@ docker==7.1.0
 docopt==0.6.2
 docstring_parser==0.18.0
 durationpy==0.10
-elastic-transport==9.2.1
+elastic-transport==9.4.0
 elasticsearch==9.3.0
 email-validator==2.3.0
 entrypoints==0.4
@@ -562,7 +562,7 @@ pyspnego==0.12.1
 python-arango==8.3.2
 python-daemon==3.1.2
 python-dateutil==2.9.0.post0
-python-discovery==1.2.2
+python-discovery==1.3.0
 python-dotenv==1.2.2
 python-http-client==3.3.7
 python-jenkins==1.8.3

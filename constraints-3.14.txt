@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-05-09T13:49:38.274334
+# This constraints file was automatically generated on 2026-05-09T20:48:27.625349
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -62,7 +62,7 @@ WTForms==3.2.2
 Werkzeug==3.1.8
 a2wsgi==1.10.10
 adal==1.2.7
-adlfs==2026.4.0
+adlfs==2026.5.0
 aenum==3.1.17
 aiobotocore==3.6.0
 aiofiles==24.1.0
@@ -263,7 +263,7 @@ docker==7.1.0
 docopt==0.6.2
 docstring_parser==0.18.0
 durationpy==0.10
-elastic-transport==9.2.1
+elastic-transport==9.4.0
 elasticsearch==9.3.0
 email-validator==2.3.0
 entrypoints==0.4
