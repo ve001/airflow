@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-05-10T15:54:56.329223
+# This constraints file was automatically generated on 2026-05-10T23:44:37.963111
 # via `uv pip install --resolution highest` for the "v3-2-test" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -436,7 +436,7 @@ logfire-api==4.32.1
 looker_sdk==26.6.1
 lxml==6.0.2
 lz4==4.4.5
-markdown-it-py==4.0.0
+markdown-it-py==4.1.0
 marshmallow-sqlalchemy==1.5.0
 marshmallow==3.26.2
 matplotlib-inline==0.2.1
@@ -474,7 +474,7 @@ neo4j==6.2.0
 nest-asyncio==1.6.0
 numpy==2.4.4
 oauthlib==3.3.1
-openai==2.34.0
+openai==2.35.1
 openlineage-integration-common==1.46.0
 openlineage-python==1.46.0
 openlineage_sql==1.46.0
@@ -622,7 +622,7 @@ sqlalchemy-spanner==1.17.3
 sqlalchemy_drill==1.1.10
 sqlparse==0.5.5
 stack-data==0.6.3
-starlette==0.52.1
+starlette==1.0.0
 statsd==4.0.1
 std-uritemplate==2.0.8
 strictyaml==1.7.3
