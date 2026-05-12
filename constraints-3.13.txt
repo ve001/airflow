@@ -1,6 +1,6 @@
 
 #
-# This constraints file was automatically generated on 2026-05-11T15:52:22.809751
+# This constraints file was automatically generated on 2026-05-12T01:19:15.078753
 # via `uv pip install --resolution highest` for the "main" branch of Airflow.
 # This variant of constraints install uses the HEAD of the branch version for 'apache-airflow' but installs
 # the providers from PIP-released packages at the moment of the constraint generation.
@@ -208,7 +208,7 @@ atlassian-python-api==4.0.7
 attrs==26.1.0
 azure-batch==15.1.0
 azure-common==1.1.28
-azure-core==1.40.0
+azure-core==1.41.0
 azure-cosmos==4.15.0
 azure-datalake-store==0.0.53
 azure-identity==1.25.3
@@ -321,7 +321,7 @@ google-api-core==2.30.3
 google-api-python-client==2.196.0
 google-auth-httplib2==0.4.0
 google-auth-oauthlib==1.4.0
-google-auth==2.51.0
+google-auth==2.52.0
 google-cloud-aiplatform==1.148.1
 google-cloud-alloydb==0.9.0
 google-cloud-appengine-logging==1.9.0
@@ -331,7 +331,7 @@ google-cloud-batch==0.21.0
 google-cloud-bigquery-datatransfer==3.22.0
 google-cloud-bigquery-storage==2.38.0
 google-cloud-bigquery==3.41.0
-google-cloud-bigtable==2.37.0
+google-cloud-bigtable==2.38.0
 google-cloud-build==3.36.0
 google-cloud-compute==1.47.0
 google-cloud-container==2.64.0
@@ -486,7 +486,7 @@ neo4j==6.2.0
 nest-asyncio==1.6.0
 numpy==2.4.4
 oauthlib==3.3.1
-openai==2.35.1
+openai==2.36.0
 opencensus-context==0.1.3
 opencensus==0.11.4
 openlineage-integration-common==1.46.0
@@ -526,7 +526,7 @@ pendulum==3.2.0
 pexpect==4.9.0
 pgvector==0.4.2
 pinecone==9.0.0
-pinotdb==9.1.1
+pinotdb==5.7.0
 platformdirs==4.9.6
 pluggy==1.6.0
 polars-runtime-32==1.40.1
@@ -675,7 +675,7 @@ tzlocal==5.3.1
 uc-micro-py==2.0.0
 universal_pathlib==0.3.10
 uritemplate==4.2.0
-urllib3==2.6.3
+urllib3==2.7.0
 uuid6==2025.0.1
 uv==0.11.13
 uvicorn==0.46.0
@@ -698,7 +698,7 @@ xmltodict==1.0.4
 yandex-query-client==0.1.4
 yandexcloud==0.389.0
 yarl==1.23.0
-ydb-dbapi==0.1.20
+ydb-dbapi==0.1.21
 ydb==3.28.4
 zeep==4.3.2
 zenpy==2.0.57
